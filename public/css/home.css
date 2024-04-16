@@ -1,0 +1,66 @@
+.parent{
+    min-height: 50vh;
+    padding: 5% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.child{
+    min-width: 100%;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    width: 95%;
+    margin: 0.1rem auto;
+}
+
+.product{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-img{
+    width: 30%;
+}
+
+.product-img img{
+   width: 100%;
+}
+.product-detail{
+    width: 68%;
+}
+
+.checked{
+    color: orange;
+}
+
+.star{
+    margin-bottom: 10px;
+    overflow-y: hidden;
+}
+p{
+    padding-top: 2.5px;
+    overflow-y: hidden;
+}
+
+.discount_price{
+    color: #EB1D36;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.orignal_price{
+    color: grey;
+    text-decoration: line-through;
+    margin-left: 0.7rem;
+}
+.a_tag{
+    text-decoration: none;
+    color: black;
+}

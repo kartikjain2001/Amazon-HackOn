@@ -1,0 +1,14 @@
+.navbar-brand{
+    margin-left: 2%;
+}
+.navbar-brand img{
+ width: 80px;
+}
+
+.d-flex{
+    margin-right: 3%;
+    justify-content: space-evenly;
+}
+nav{
+    height: 5rem;
+}

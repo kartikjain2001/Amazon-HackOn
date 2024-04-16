@@ -1,0 +1,56 @@
+<%- include("partials/header")-%>
+    <div class="parent">
+        <div class="fashion child">
+            <div class="title">
+                <h2>Fashion Related Products</h2>
+            </div>
+            <div class="products">
+                <% for( let i = 0; i < fashion.length; i++ ) { %>
+                    <a class="a_tag" href="/fashion_product/<%= fashion[i].dev_name %>"><div class="product">
+                        <div class="product-img"><img src=<%= fashion[i].image %> alt=""></div>
+                        <div clas="product-detail">
+                            <h4><b><%= fashion[i].name %></b></h4>
+                            <div class="star">
+                                <% for( let j = 0; j < fashion[i].star; j++ ) { %>
+                                    <span class="fa fa-star checked"></span>
+                                <% } %>
+                                <% for( let k = 0; k < 5-fashion[i].star; k++ ) { %>
+                                    <span class="fa fa-star"></span>
+                                <% } %>
+                            </div>
+                            <p><span class="discount_price"><%= fashion[i].discount_price %></span><span class="orignal_price"><%= fashion[i].cost_price %></span><span class="discount">(<%= fashion[i].discount_percent %>% off)</span></p>
+                        </div>
+                    </div></a>
+                <% } %>
+          </div>
+          <div class="homeDecor child">
+            <div class="title">
+                <h2>Home Decore Related Products</h2>
+            </div>
+            <div class="products">
+
+                <% for( let i = 0; i < decor.length; i++ ) { %>
+                    <a class="a_tag" href="/decor_product/<%= decor[i].dev_name %>"><div class="product">
+                        <div class="product-img"><img src=<%= decor[i].image %> alt=""></div>
+                        <div clas="product-detail">
+                            <h4><b><%= decor[i].name %></b></h4>
+                            <div class="star">
+                                <% for( let j = 0; j < decor[i].star; j++ ) { %>
+                                    <span class="fa fa-star checked"></span>
+                                <% } %>
+                                <% for( let k = 0; k < 5-decor[i].star; k++ ) { %>
+                                    <span class="fa fa-star"></span>
+                                <% } %>
+                            </div>
+                            <p><span class="discount_price"><%= decor[i].discount_price %></span><span class="orignal_price"><%= decor[i].cost_price %></span><span class="discount">(<%= decor[i].discount_percent %>% off)</span></p>
+                        </div>
+                    </div></a>
+                <% } %> 
+            </div>
+        </div>
+    </div>
+    <%- include("partials/footer") -%>
+
+    <script src="/js/home.js"></script>
+
+

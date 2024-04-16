@@ -1,0 +1,11 @@
+Model Information:
+* title:	TABLE LAMP
+* source:	https://sketchfab.com/3d-models/table-lamp-4b5bbcccea5d4ef59ca16efe65d8948d
+* author:	vUv (https://sketchfab.com/vovaustimuk)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "TABLE LAMP" (https://sketchfab.com/3d-models/table-lamp-4b5bbcccea5d4ef59ca16efe65d8948d) by vUv (https://sketchfab.com/vovaustimuk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
